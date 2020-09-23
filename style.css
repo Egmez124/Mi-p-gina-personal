@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jumbotron {
+    background-image: url("./Fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    background: grey;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.4);
+}
+.jumbotron-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+nav {
+    background-color: cyan;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    padding: 5px 0;
+}
+.logo {
+    background-image: url("https://www.flaticon.es/premium-icon/icons/svg/2412/2412854.svg");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+/* habout me */
+.card {
+    margin-top: -50px;
+    background: white;
+    position: relative;
+    margin-left: 20%;
+    width: 60%;
+    border-radius: 10px;
+    border: solid 1px grey;
+}
+.card-content {
+    padding: 20px;
+}
+/* Experience */
+.service-1, .service-2, .service-3, .service-4, .service-5, .service-6 {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+.service-1 {
+    background-image: url("icono-1.png");
+}
+.service-2 {
+    background-image: url("icono-2.png");
+}
+.service-3 {
+    background-image: url("icono-3.png");
+}
+.service-4 {
+    background-image: url("icono-4.png");
+}
+/* contact */
+.row {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.item-1, .item-2, .item-3, .item-4 {
+    border: solid 1px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.item-1 {
+    background-image: url("icono-7.png");
+}
+.item-2 {
+    background-image: url("icono-6.png");
+}
+.item-3 {
+    background-image: url("icono-5.png");
+}
+.item-4 {
+    background-image: url("icono-8.png");
+}
+/* Helpers */
+.text-white {
+    color: white;
+}
+.text-center {
+    text-align: center;
+}
+.position-relaive {
+    position: relative;
+}
+.background-size {
+    background-size: cover;
+}
+li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.display-flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-top {
+    margin-top: 20px;
+}
+.align-item {
+    align-items: center;
+}
+.content-center {
+    justify-content: center;
+}
+.button {
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.text-align-center {
+    text-align: center;
+}
+.container {
+    background-image: url("https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    height: 100vh;
+}
+.container-contact {
+    height: 30vh;
+}
